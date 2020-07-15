@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Games">
+      <UniqueIdentifier>{4f698a3e-a75a-4a47-b62c-8e0547109eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsoleEx3">
+      <UniqueIdentifier>{9a410920-dbe9-4e43-aba9-ab23edd6fe58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mng">
+      <UniqueIdentifier>{e89d337b-c364-4336-bbd0-dec2acd27b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mng\State">
+      <UniqueIdentifier>{a0ae553c-e223-4f5b-b9c7-f8a84e6e514a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Unit">
+      <UniqueIdentifier>{6a421ee7-0cd8-4dba-9116-b4ebb82f81e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\State">
+      <UniqueIdentifier>{a60f228d-adf1-4a83-9c52-1909930d1c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Barrier">
+      <UniqueIdentifier>{22f82d60-0b8c-4c83-b97f-2391c2e5ed4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Bullet">
+      <UniqueIdentifier>{769f79e8-44d6-455e-abff-3b84fbfebab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Hero">
+      <UniqueIdentifier>{cd72b92d-24cd-437f-a9b8-9b1a51f80128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Boss">
+      <UniqueIdentifier>{e6532bfe-58f3-457b-8bd4-f0138f06f139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Class">
+      <UniqueIdentifier>{9093df8a-6c91-484f-9b04-ae652d9ee2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Effect">
+      <UniqueIdentifier>{67b8a6b3-9ac3-468b-b931-d88289f64040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Item">
+      <UniqueIdentifier>{1f63183c-2392-499a-9f78-6ce748c03482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Monster">
+      <UniqueIdentifier>{958a0f8c-f4dd-4ce5-a809-f2b679221693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Skill">
+      <UniqueIdentifier>{800fae2f-98f6-455e-b28e-f5da9ce257cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Ui">
+      <UniqueIdentifier>{6af34bf5-4ea1-4754-8950-e68d61a3de33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Terret">
+      <UniqueIdentifier>{6f5b6537-d6be-4872-80db-e08ed82a3b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\SubMonster">
+      <UniqueIdentifier>{7a37c7c7-3869-4b04-8373-27b661d8c401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\BossSkill">
+      <UniqueIdentifier>{029f379b-4b89-40ed-b392-2b7ec4cd8cf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ConsoleEx3\ConWrap.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleEx3\SysTimer.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mng.cpp">
+      <Filter>Mng</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Mng\State</Filter>
+    </ClCompile>
+    <ClCompile Include="StateCtrl.cpp">
+      <Filter>Mng\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Games\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Games\Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Games\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Games\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Games\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.cpp">
+      <Filter>Games\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Games\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Games\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Games\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Games\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroPickState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>Games\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Terret.cpp">
+      <Filter>Games\Terret</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMonster.cpp">
+      <Filter>Games\SubMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSkill.cpp">
+      <Filter>Games\BossSkill</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ConsoleEx3\ConWrap.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapColors.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapDefines.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\SysTimer.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="Mng.h">
+      <Filter>Mng</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Mng\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Extern.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="StateCtrl.h">
+      <Filter>Mng\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Games\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Games\Barrier</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Games\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Games\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Games\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Games\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Games\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Games\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Games\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Games\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroPickState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>Games\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Terret.h">
+      <Filter>Games\Terret</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMonster.h">
+      <Filter>Games\SubMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSkill.h">
+      <Filter>Games\BossSkill</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ConsoleEx3\개발일지.txt">
+      <Filter>ConsoleEx3</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
